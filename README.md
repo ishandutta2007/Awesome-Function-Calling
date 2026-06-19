@@ -63,3 +63,14 @@ Developers can explicitly constrain how the LLM decides to interact with functio
 | :--- | :--- | :---: | :--- |
 | **Custom / Injected Tooling** | Used for local, open-source models that lack native function-calling layers. Tool docstrings are converted to JSON and injected into system prompts, paired with code parsers to extract the calls. | 2022 | [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) |
 | **Model Context Protocol (MCP)** | An infrastructure layer that standardizes tool discovery and authentication. Serves as a unified middle-layer connecting models instantly to applications without rewriting unique JSON schemas for every model type. | 2024 | [Model Context Protocol Specification](https://modelcontextprotocol.io/) |
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Function-Calling&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Function-Calling&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Function-Calling&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Function-Calling&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
