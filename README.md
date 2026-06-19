@@ -1,11 +1,25 @@
-# Awesome-Function-Calling
-## Function-Calling Variants in Large Language Models (LLMs)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Function Calling Banner" width="800">
+</p>
 
-Function-calling enables LLMs to interact with external systems, APIs, and databases. Depending on the architecture, strictness requirements, and execution needs, function-calling can be implemented through several distinct variants.
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Function-Calling/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Function-Calling?style=flat" alt="GitHub stars"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+# 🚀 Awesome Function Calling
+
+## 💡 Function-Calling & Tool Use Variants in Large Language Models (LLMs)
+
+Function-calling (or tool use) enables Large Language Models (LLMs) to interact seamlessly with external systems, APIs, and databases, forming the core of modern autonomous AI agents. Depending on the runtime architecture, schema strictness requirements, and complexity of execution, function-calling is implemented through several distinct paradigms.
+
+This curated list breaks down the primary function-calling variations, their enforcement strictness, developer-configured options, and integration ecosystems.
 
 ---
 
-## [1. Execution & Complexity Variants](details/execution_complexity.md)
+## ⚙️ [1. Execution & Complexity Variants](details/execution_complexity.md)
 
 These variants define how many functions are processed and how they execute to complete a user query.
 
@@ -19,7 +33,7 @@ These variants define how many functions are processed and how they execute to c
 
 ---
 
-## [2. Schema Enforcement & Strictness Variants](details/schema_strictness.md)
+## 🔒 [2. Schema Enforcement & Strictness Variants](details/schema_strictness.md)
 
 These variations dictate how rigidly the LLM must adhere to the formatting rules of the underlying APIs.
 
@@ -31,7 +45,7 @@ These variations dictate how rigidly the LLM must adhere to the formatting rules
 
 ---
 
-## [3. Model Behavior Options (Tool Choice)](details/model_behavior.md)
+## 🎯 [3. Model Behavior Options (Tool Choice)](details/model_behavior.md)
 
 Developers can explicitly constrain how the LLM decides to interact with functions via system configurations:
 
@@ -43,7 +57,7 @@ Developers can explicitly constrain how the LLM decides to interact with functio
 
 ---
 
-## [4. Integration Ecosystem Variants](details/integration_ecosystem.md)
+## 🌐 [4. Integration Ecosystem Variants](details/integration_ecosystem.md)
 
 | Variant | Description | Year | Paper / Reference |
 | :--- | :--- | :---: | :--- |
