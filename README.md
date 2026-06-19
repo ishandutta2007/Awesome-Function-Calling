@@ -5,7 +5,7 @@ Function-calling enables LLMs to interact with external systems, APIs, and datab
 
 ---
 
-## 1. Execution & Complexity Variants
+## [1. Execution & Complexity Variants](details/execution_complexity.md)
 
 These variants define how many functions are processed and how they execute to complete a user query.
 
@@ -19,7 +19,7 @@ These variants define how many functions are processed and how they execute to c
 
 ---
 
-## 2. Schema Enforcement & Strictness Variants
+## [2. Schema Enforcement & Strictness Variants](details/schema_strictness.md)
 
 These variations dictate how rigidly the LLM must adhere to the formatting rules of the underlying APIs.
 
@@ -31,7 +31,7 @@ These variations dictate how rigidly the LLM must adhere to the formatting rules
 
 ---
 
-## 3. Model Behavior Options (Tool Choice)
+## [3. Model Behavior Options (Tool Choice)](details/model_behavior.md)
 
 Developers can explicitly constrain how the LLM decides to interact with functions via system configurations:
 
@@ -43,7 +43,7 @@ Developers can explicitly constrain how the LLM decides to interact with functio
 
 ---
 
-## 4. Integration Ecosystem Variants
+## [4. Integration Ecosystem Variants](details/integration_ecosystem.md)
 
 | Variant | Description | Year | Paper / Reference |
 | :--- | :--- | :---: | :--- |
